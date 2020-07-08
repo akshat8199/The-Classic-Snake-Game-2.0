@@ -1,0 +1,52 @@
+html, body {
+  margin-left: 20px;
+  background-color: rgb(50, 50, 50);
+}
+
+canvas {
+  display: inline-block;
+  margin-left: 5%;
+  border: 3px solid red;
+}
+
+@font-face{
+  font-family: harry;
+  src : url("library/harry-p-font/HarryP-MVZ6w.ttf");
+}
+
+p{
+  font-family: harry;
+  color: white;
+  font-size: 40px;
+}
+
+h3, h1{
+  display: block;
+  color : yellow;
+  opacity: 80%;
+  margin-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  font-weight: 9;
+  font-family: harry;
+  font-size: 46px;
+  text-shadow: 10px 10px 5px black;
+}
+
+title{
+  font-family: harry;
+  font-weight: 9;
+}
+
+#game{
+  text-align: center;
+  color : yellow;
+  opacity: 80%;
+  margin-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  font-weight: 20;
+  font-family: harry;
+  font-size: 70px;
+  text-shadow: 0px 20px 8px black;
+}
