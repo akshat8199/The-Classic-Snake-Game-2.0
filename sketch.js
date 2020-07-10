@@ -11,7 +11,7 @@ function setup() {
 
   body = select("body");
 
-  high_score = createElement("h1", "HIGH SCORE");
+  high_score = createElement("h1", "HIGH SCOREdd");
   high_score.position(1120, 150);
 
   p_high_score = createElement("p", "0000");
