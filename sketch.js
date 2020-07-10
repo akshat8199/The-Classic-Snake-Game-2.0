@@ -2,7 +2,7 @@ let snake, food, grid, d = 1, obj, high_score, current_score, p_high_score, p_cu
 var body;
 
 function setup() {
-  createCanvas(1000, 575);
+  createCanvas(1000, 550);
   obj = new Obstacle();
   obj.create();
   snake = new Snake();
@@ -11,17 +11,17 @@ function setup() {
 
   body = select("body");
 
-  high_score = createElement("h1", "HIGH SCOREdd");
+  high_score = createElement("h1", "HIGH SCORE");
   high_score.position(1120, 150);
 
-  p_high_score = createElement("p", "0000");
-  p_high_score.position(1220, 200);
+  p_high_score = createElement("p", "0");
+  p_high_score.position(1220, 250);
 
   current_score = createElement("h1", "CURRENT SCORE");
-  current_score.position(1090, 340);
+  current_score.position(1090, 390);
 
   p_current_score = createElement("p", "0");
-  p_current_score.position(1220, 390);
+  p_current_score.position(1220, 490);
 }
 
 let frame = 5;
