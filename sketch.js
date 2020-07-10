@@ -14,7 +14,7 @@ function setup() {
   high_score = createElement("h1", "HIGH SCORE");
   high_score.position(1120, 150);
 
-  p_high_score = createElement("p", "0");
+  p_high_score = createElement("p", "0000");
   p_high_score.position(1220, 200);
 
   current_score = createElement("h1", "CURRENT SCORE");
