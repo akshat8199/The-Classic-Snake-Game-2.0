@@ -82,7 +82,7 @@ function Snake() {
         console.log("highest " + highest)
       }
 
-      frame += 0.5;
+      frame += 0.2;
       console.log("frame " + frame);
     }
     return frame;
