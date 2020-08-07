@@ -12,16 +12,16 @@ function setup() {
   body = select("body");
 
   high_score = createElement("h1", "HIGH SCORE");
-  high_score.position(1120, 150);
+  high_score.position(1220, 150);
 
   p_high_score = createElement("p", "0");
-  p_high_score.position(1220, 250);
+  p_high_score.position(1320, 250);
 
   current_score = createElement("h1", "CURRENT SCORE");
-  current_score.position(1090, 390);
+  current_score.position(1190, 390);
 
   p_current_score = createElement("p", "0");
-  p_current_score.position(1220, 490);
+  p_current_score.position(1320, 490);
 }
 
 let frame = 5;
